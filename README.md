@@ -1,43 +1,102 @@
-# Astro Starter Kit: Minimal
+# 🏪 Barokah Inayah Landing Page
 
-```sh
-npm create astro@latest -- --template minimal
+A premium, modern landing page for **Barokah Inayah**, redefining the street food and retail experience in Sumenep. Built with a focus on high-end aesthetics, smooth interactions, and a "Pro Max" design philosophy.
+
+![Astro](https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+
+---
+
+## ✨ Key Features
+
+- **💎 Premium UI/UX**: Sophisticated dark-themed design with gold accents and high-end typography.
+- **🍱 Bento Grid Layout**: Curated presentation of retail items and culinary offerings.
+- **⚡ High Performance**: Ultra-fast loading speeds powered by Astro's zero-JS-by-default architecture.
+- **🎨 Interactive Elements**: 
+  - **Magnetic Buttons**: Dynamic hover effects for enhanced engagement.
+  - **Scroll Reveal**: Smooth entry animations for content sections.
+  - **Kinetic Marquee**: Lively ticker for branding and announcements.
+- **🕒 Real-time Utilities**: Live Jakarta clock integration for 24/7 operational transparency.
+- **📱 Fully Responsive**: Thoughtfully designed for seamless experiences across mobile, tablet, and desktop.
+- **🛍️ One-Click Ordering**: Integrated WhatsApp ordering system for instant customer conversion.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Astro](https://astro.build/) (Static Site Generator)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons**: Google Material Symbols
+- **Assets**: Optimized local imagery and smooth gradients.
+- **Deployment**: Configured for modern hosting platforms (Vercel/Netlify).
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/) installed (version 18.14.1 or higher).
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Dzakiudin/toko-barokah-inayah-landing-page.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd toko-barokah-inayah-landing-page
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Development
+
+Start the local development server:
+```bash
+npm run dev
 ```
+Open `http://localhost:4321` in your browser to see the live project.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
+## 📁 Project Structure
 
 ```text
 /
-├── public/
+├── public/              # Static assets (favicons, etc.)
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── assets/          # Project images and media
+│   ├── layouts/         # Base HTML templates
+│   ├── pages/           # Route components (index.astro)
+│   └── styles/          # Global CSS and Tailwind definitions
+├── package.json         # Project dependencies and scripts
+└── astro.config.mjs     # Astro configuration
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+---
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## 📍 Business Information
 
-Any static assets, like images, can be placed in the `public/` directory.
+- **Name**: Toko Barokah Inayah
+- **Location**: Kalianget, Sumenep, East Java.
+- **Specialties**: Daily Essentials & Pentol Tahu Ala Poja.
+- **Hours**: Open 24/7.
 
-## 🧞 Commands
+---
 
-All commands are run from the root of the project, from a terminal:
+## 👤 Author
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+**Dzakiudin**
+- GitHub: [@Dzakiudin](https://github.com/Dzakiudin)
+- Project: [Barokah Inayah Landing Page](https://github.com/Dzakiudin/toko-barokah-inayah-landing-page)
 
-## 👀 Want to learn more?
+---
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+*Crafted with precision & passion. © 2024 Barokah Inayah.*
