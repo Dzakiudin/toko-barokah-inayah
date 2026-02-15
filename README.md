@@ -95,7 +95,7 @@ Open `http://localhost:4321` in your browser to see the live project.
 
 **Dzakiudin**
 - GitHub: [@Dzakiudin](https://github.com/Dzakiudin)
-- Project: [Barokah Inayah Landing Page](https://github.com/Dzakiudin/toko-barokah-inayah-landing-page)
+- Project: [Barokah Inayah Landing Page](https://toko-barokah-inayah.vercel.app/)
 
 ---
 
